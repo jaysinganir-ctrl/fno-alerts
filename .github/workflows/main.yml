@@ -1,4 +1,4 @@
-name: Run FNO Alerts
+name: run: python fno_alerts.py
 
 on:
   schedule:
