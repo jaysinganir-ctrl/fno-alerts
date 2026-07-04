@@ -3,7 +3,7 @@ import pandas as pd
 import yfinance as yf
 from datetime import datetime
 
-TOKEN = "8956026871:AAEAzvBeHNDQ4Gi1z_AsRreZmfw5W2l90RU"
+TOKEN = os.environ['TELEGRAM_TOKEN']
 CHAT_ID = "729532479"
 
 def send_message(text):
